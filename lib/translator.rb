@@ -9,7 +9,6 @@ def load_library(emoticons)
 end
 
 def get_japanese_emoticon(emoticons, emoji)
-  # code goes here
   result = "Sorry, that emoticon was not found"
   load_library(emoticons).each do |key, value|
    value.each do |language, library_emoji|
